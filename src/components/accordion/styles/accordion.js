@@ -30,15 +30,11 @@ export const Item = styled.div`
 	color: white;
 	margin: auto;
 	margin-bottom: 10px;
-	/* max-width: 720px; */
-	width: 720px;
+	max-width: 670px;
+	width: 100%;
 
 	&::first-of-type {
 		margin-top: 3em;
-	}
-
-	@media (max-width: 900px) {
-		width: 600px;
 	}
 
 	@media (max-width: 700px) {
